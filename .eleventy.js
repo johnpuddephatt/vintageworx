@@ -29,11 +29,11 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('activities', collection => {
-    return collection.getFilteredByGlob('./src/activities/*.njk');
+    return collection.getFilteredByGlob('./src/activities/*.md');
   });
 
   eleventyConfig.addCollection('casestudies', collection => {
-    return collection.getFilteredByGlob('./src/casestudies/*.njk');
+    return collection.getFilteredByGlob('./src/casestudies/*.md');
   });
 
 
