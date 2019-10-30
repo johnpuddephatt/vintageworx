@@ -24,7 +24,7 @@ collections:
       preview: false
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Quote', name: 'day', widget: 'select', options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] }
+      - { label: 'Quote', name: 'quote', widget: 'text' }
       - { label: 'Image', name: 'image', widget: 'image' }
   - name: 'events'
     label: 'Events'
@@ -59,15 +59,18 @@ collections:
             widget: list
             fields:
               - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'body', widget: 'text'}
+              - { label: 'Description', name: 'description', widget: 'text'}
               - { label: 'Image', name: 'image', widget: 'image' }
+          - label: "Gallery"
+            name: "galleryImages"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
           - label: Slideshow
             name: slideshow
             widget: object
             fields:
               - { label: 'Title', name: 'title', widget: 'string'}
               - { label: 'Description', name: 'description', widget: 'text'}
-              - { label: 'Part two', name: 'part_two', widget: 'text'}
               - label: Images
                 name: images
                 widget: list
