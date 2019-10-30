@@ -1,0 +1,89 @@
+.section--page-activities {
+  margin-bottom: 2 * $base-spacing;
+}
+
+.activity-item {
+  border: $base-border;
+  background-color: white;
+  + .activity-item {
+    border-top: none;
+  }
+}
+
+.activity-item--header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  appearance: none;
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  &:focus {
+    outline-offset: -2px;
+  }
+  &:hover {
+    background-color: $light-blue;
+    .activity-item--arrow  {
+      color: $green;
+    }
+  }
+  &[aria-expanded='true'] .activity-item--arrow {
+    transform: rotate(-90deg);
+  }
+}
+
+
+.activity-item--arrow {
+  margin-left: auto;
+  font-family: "Segoe UI Symbol", Arial;
+  color: $light-blue;
+  background-color: none;
+  margin-right: $base-spacing;
+  font-size: modular-scale(3);
+  transition: transform $base-duration, color $base-duration;
+}
+
+.activity-item--image {
+  margin-right: $base-spacing;
+  flex: 0 0 100px;
+  @media screen and (min-width: $medium-screen) {
+    flex: 0 0 150px;
+  }
+  img {
+    display: block;
+  }
+}
+
+.activity-item--text {
+  flex: 1 1 auto;
+  white-space: normal;
+  margin-right: $base-spacing;
+}
+
+.activity-item--title {
+  font-size: modular-scale(1);
+  @media screen and (min-width: $medium-screen) {
+    font-size: modular-scale(2);
+  }
+  color: $green;
+  margin-bottom: $small-spacing;
+  font-weight: 700;
+}
+
+.activity-item--time {
+  font-size: modular-scale(1);
+  color: $green;
+  font-weight: 700;
+}
+
+.activity-item--content {
+  margin-top: $base-spacing;
+  margin-bottom: 2 * $base-spacing;
+  margin-left: calc(100px + #{$base-spacing});
+  @media screen and (min-width: $medium-screen) {
+    margin-left: calc(150px + #{$base-spacing});
+  }
+  max-width: 40em;
+}

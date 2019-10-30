@@ -1,0 +1,26 @@
+@include font-face(
+  "Butler",
+  "/assets/fonts/Butler-Medium",
+  ("woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 400;
+}
+
+@include font-face(
+  "Raleway",
+  "/assets/fonts/Raleway-Semibold",
+  ("woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 400;
+}
+
+@include font-face(
+  "Raleway",
+  "/assets/fonts/Raleway-Black",
+  ("woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 700;
+}

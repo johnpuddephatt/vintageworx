@@ -1,0 +1,82 @@
+.intro-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @media screen and (min-width: $small-screen) {
+    flex-direction: row;
+    align-items: center;
+  }
+  + .intro-row {
+    margin-bottom: 3 * $base-spacing;
+    margin-top: -3 * $base-spacing;
+    @media screen and (min-width: $xl-screen) {
+      margin-top: -2 * $base-spacing;
+    }
+    @media screen and (orientation: portrait) {
+      margin-top: $base-spacing;
+      margin-bottom: $base-spacing;
+      p:last-child {
+        // display: none;
+      }
+      .column + .column {
+        padding-right: $base-spacing;
+      }
+    }
+  }
+  .column {
+    flex: 0 0 55%;
+    &:first-child {
+      // margin-bottom: -$base-spacing;
+    }
+    + .column {
+      margin-right: -$base-spacing;
+      margin-top: 0;
+      @media screen and (min-width: $small-screen) {
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: -10%;
+        z-index: 1;
+      }
+    }
+    &__intro {
+      background-color: $light-blue;
+      padding: 2 * $base-spacing $base-spacing 2 * $base-spacing 2 * $base-spacing;
+      @media screen and (orientation: portrait) {
+        padding: 2 * $base-spacing $base-spacing 2 * $base-spacing $base-spacing;
+      }
+      margin-left: -$base-spacing;
+      z-index: 9;
+      p:first-child {
+        font-size: modular-scale(3);
+        font-weight: 400;
+        font-family: $heading-font-family;
+        line-height: $heading-line-height;
+      }
+      p:last-child {
+        @media screen and (orientation: portrait) {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &__text > * {
+      max-width: 30em;
+    }
+    &__portrait {
+      z-index: 9;
+      display: none;
+      @media screen and (min-width: $small-screen) {
+        display: block
+      }
+      img {
+        max-width: 67%;
+        margin-left: $base-spacing;
+        @media screen and (orientation: portrait) {
+          max-width: 100%;
+          margin-left: 0;
+          margin-top: -4 * $base-spacing;
+        }
+      }
+    }
+  }
+}
+

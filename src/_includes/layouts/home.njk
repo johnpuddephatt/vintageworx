@@ -1,0 +1,97 @@
+---
+layout: /layouts/base.njk
+---
+<section class="home-hero">
+    <div class="home-hero--text">
+      <div class="container">
+        <img class="home-hero--logo" src="/assets/images/vintageworx.svg" alt="VintageWorx – Community Development Trust">
+        <h1 class="home-hero--title">
+          {{ headline | nl2br | safe }}
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  {% include "partials/navigation.njk" %}
+
+  <div class="inner">
+    <div class="parallax2"></div>
+
+    <section class="section section--intro">
+      <div class="container">
+        <h2 class="section-title">{{ intro.title | nl2br | safe }}</h2>
+
+        <div class="intro-row">
+          <div class="column column__text column__intro">
+            {{intro.part_one | markdownify | safe }}
+          </div>
+          <div class="column column__image">
+            <img src="{{ intro.image_one}}" />
+          </div>
+        </div>
+
+        <div class="intro-row">
+          <div class="column column__portrait">
+            <img src="{{ intro.image_two }}" />
+          </div>
+          <div class="column column__text">
+            {{intro.part_two | markdownify | safe }}
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section section--explore">
+      <div class="section--explore--inner">
+        {% for slide in what_we_do %}
+          <div class="section--explore--item active" data-slide="{{ loop.index }}">
+            <div class="container">
+              <div class="explore--text">
+                <h1 class="explore--title">
+                  What we do
+                </h1>
+                <h2 class="explore--subtitle">
+                  {{ slide.title }}
+                </h2>
+                {{ slide.description | markdownify | safe}}
+              </div>
+              <img class="explore--image" src="{{ slide.image }}">
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <nav class="controls">
+        <button data-direction="forwards">Forward</button>
+        <button disabled data-direction="backwards">Back</button>
+      </nav>
+    </section>
+
+    <section class="section section--explore-navigation">
+      <nav class="container links">
+        {% for slide in what_we_do %}
+          <button {% if loop.first %}class="active"{% endif %}>{{ slide.title }}</button>
+        {% endfor %}
+      </nav>
+    </section>
+
+
+    <section class="section--project">
+      <div class="container">
+        <div class="project--image">
+          {% for slide in slideshow.images %}
+            <img src="{{ slide }}" class="slide">
+          {% endfor %}
+        </div>
+        <div class="project--text-wrapper">
+          <div class="project--text">
+            <h2 class="project--title">
+              {{ slideshow.title }}
+            </h2>
+            {{ slideshow.description | markdownify | safe }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>

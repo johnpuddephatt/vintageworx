@@ -1,0 +1,76 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'uploads'
+collections:
+  - name: 'activities'
+    label: 'Activities'
+    folder: 'src/activities/'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Day', name: 'day', widget: 'select', options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] }
+      - { label: 'Time', name: 'time', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { labe: 'Description', name: 'body', widget: 'markdown'}
+  - name: 'casestudies'
+    label: 'Case Studies'
+    folder: 'src/casestudies/'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Quote', name: 'day', widget: 'select', options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] }
+      - { label: 'Image', name: 'image', widget: 'image' }
+  - name: 'events'
+    label: 'Events'
+    folder: 'src/events/'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date', format: 'Do MMM YYYY'}
+      - { label: 'Time', name: 'time', widget: 'string'}
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Description', name: 'body', widget: 'markdown'}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "index"
+        file: "/src/index.njk"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - { label: 'Headline', name: 'headline', widget: 'markdown'}
+          - label: Introduction
+            name: intro
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'text'}
+              - { label: 'Part one', name: 'part_one', widget: 'text'}
+              - { label: 'Part two', name: 'part_two', widget: 'text'}
+          - label: Slider
+            name: what_we_do
+            widget: list
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'body', widget: 'text'}
+              - { label: 'Image', name: 'image', widget: 'image' }
+          - label: Slideshow
+            name: slideshow
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+              - { label: 'Part two', name: 'part_two', widget: 'text'}
+              - label: Images
+                name: images
+                widget: list
+                field:
+                  - { label: 'Image', name: 'image', widget: 'image' }

@@ -1,0 +1,78 @@
+.section--page-cases {
+  margin-bottom: 2 * $base-spacing;
+
+  .row {
+    margin-bottom: $base-spacing;
+    @media screen and (min-width: $medium-screen) {
+      margin-bottom: $base-spacing;
+      display: flex;
+      flex-direction: row;
+      &:nth-child(2n) {
+        .case-study--image {
+          order: -1;
+          margin-left: 0;
+          margin-right: -5%;
+        }
+        .case-study--text {
+          margin-left: -5%;
+          margin-right: 5%;
+        }
+      }
+    }
+
+  }
+
+  .case-study--image {
+    width: 100%;
+    @media screen and (min-width: $medium-screen) {
+      width: 52.5%;
+      flex: 0 0 52.5%;
+      margin-left: -5%;
+      padding-top: $base-spacing;
+      padding-bottom: 2 * $base-spacing;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .case-study--text {
+    background-color: $light-blue;
+    height: auto;
+    padding: $base-spacing;
+    position: relative;
+    @media screen and (min-width: $medium-screen) {
+      z-index: 9;
+      margin-right: -5%;
+      margin-top: auto;
+      width: 52.5%;
+      flex: 0 0 52.5%;
+      margin-left: 5%;
+    }
+  }
+
+  .section-subtitle {
+    font-size: modular-scale(4);
+  }
+
+  .case-study--quote {
+    p:first-child {
+      font-family: $heading-font-family;
+      margin-top: $base-spacing;
+      margin-bottom: $base-spacing;
+      line-height: 1.3;
+      color: $primary;
+      font-size: modular-scale(2);
+      &::before {
+        content: open-quote;
+      }
+    }
+    p:last-child {
+      &::after {
+        content: close-quote;
+      }
+    }
+
+  }
+}

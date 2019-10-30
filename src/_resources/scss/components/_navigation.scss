@@ -1,0 +1,74 @@
+.primary-navigation {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  line-height: $base-spacing;
+  padding-top: 2 * $base-spacing;
+  transition: background-color 6 * $base-duration, border-bottom 6 * $base-duration;
+  padding-bottom: $base-spacing;
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-top: auto;
+    -webkit-font-smoothing: antialiased;
+    + a {
+      padding-left: $small-spacing;
+    }
+    &:not(.primary-navigation--logo) {
+      display: none;
+      @media screen and (min-width: $medium-screen) {
+        display: inline-block;
+      }
+    }
+  }
+  &--logo {
+    position: relative;
+    width: 6.5 * $base-spacing;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MC4yIiBoZWlnaHQ9IjU3LjciIHZpZXdCb3g9IjAgMCA5MC4yIDU3LjciPjxnIGZpbGw9IiNGRkYiPjxwYXRoIGQ9Ik00MC4zIDU3LjdjLjQtMTAuMy00LjItMjMuMy0xMi42LTI5LjRDMTcuOCAyMS4yIDMuNiAyMi4yIDAgMzVjMTEuNy4zIDI5LjMgNi4yIDQwLjMgMjIuN3pNOTAuMiAzNWMtMy42LTEyLjgtMTcuOC0xMy44LTI3LjctNi43LTguNCA2LTEzIDE5LjEtMTIuNiAyOS40IDExLTE2LjUgMjguNi0yMi40IDQwLjMtMjIuN3pNNTYuMSAxMWMwLTYuMS00LjktMTEtMTEtMTFzLTExIDQuOS0xMSAxMSAxMSAzOC45IDExIDM4LjkgMTEtMzIuOSAxMS0zOC45eiIvPjwvZz48L3N2Zz4=');
+    background-size: auto 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background 6 * $base-duration 6 * $base-duration;
+    padding-left: $small-spacing;
+    padding-right: $small-spacing;
+
+    img {
+      width: 100%;
+      height: auto;
+      opacity: 0;
+      backface-visibility: hidden;
+      margin-top: -1.25 * $base-spacing;
+      transition: opacity 4 * $base-duration;
+      margin-bottom: -1.5 * $small-spacing;
+    }
+  }
+  &__home {
+    position: relative;
+    position: sticky;
+    top: -1px;
+    margin-top: -4 * $base-spacing;
+  }
+  &.with-background {
+    background-color: $primary;
+    z-index: 99;
+    border-bottom: solid .5px transparentize($light-gray, .75);
+    .primary-navigation--logo {
+      background-image: none;
+      img {
+        opacity: 1;
+      }
+    }
+    a {
+      color: lighten($primary, 70)
+    }
+  }
+
+}

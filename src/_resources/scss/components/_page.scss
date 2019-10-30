@@ -1,0 +1,61 @@
+.section--page-header {
+  margin-top: 4 * $base-spacing;
+  padding-bottom: $base-spacing;
+  background-color: $light-blue;
+  background-image: url(/assets/images/pattern2.svg);
+  background-size: 50%;
+  position: relative;
+  text-align: center;
+  @media screen and (min-width: $medium-screen) {
+    text-align: left;
+    padding-top: 6 * $base-spacing;
+    padding-bottom: 4 * $base-spacing;
+    .page-header--text {
+      width: calc(#{$max-width/1.67} - #{2 * $base-spacing});
+      max-width: calc(50% - #{$base-spacing});
+      margin-left: 0;
+    }
+  }
+  .container {
+    @media screen and (min-width: $max-width) {
+      padding-left: 0;
+    }
+  }
+  .page-header--heading {
+    margin-top: 0;
+    margin-bottom: $base-spacing;
+  }
+
+  .page-header--image {
+    height: 50vw;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: $base-spacing;
+    @media screen and (min-width: $medium-screen) {
+      margin-bottom: 0;
+      height: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 50vw;
+      background-color: whitesmoke;
+    }
+  }
+}
+
+.section--page-intro {
+  text-align: center;
+  padding-bottom: 4 * $base-spacing;
+  .container {
+    max-width: $small-screen;
+  }
+}
+
+.section--page-alert {
+  background-color: $light-blue;
+  padding: 3 * $base-spacing;
+  max-width: $small-screen;
+  margin: 0 auto 6 * $base-spacing;
+}

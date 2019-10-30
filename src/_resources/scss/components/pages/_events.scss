@@ -1,0 +1,61 @@
+.section--page-events {
+  margin: 2 * $base-spacing 0 4 * $base-spacing;
+
+  .row {
+    border-bottom: $base-border;
+    padding: $base-spacing 0;
+    @media screen and (min-width: $medium-screen) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  .event--image {
+    width: 100%;
+    @media screen and (min-width: $medium-screen) {
+      width: 35%;
+      flex: 0 0 35%;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .event--description {
+    margin-bottom: 0;
+  }
+
+  .event--text {
+    padding: $base-spacing;
+    position: relative;
+    @media screen and (min-width: $medium-screen) {
+      width: 60%;
+      flex: 0 0 60%;
+    }
+  }
+
+  .event--title {
+    font-family: $base-font-family;
+    font-size: modular-scale(2);
+    font-weight: 700;
+    color: $green;
+    margin-bottom: 0px;
+  }
+
+  .event--date {
+    font-size: modular-scale(1);
+    font-family: $base-font-family;
+    font-weight: 700;
+    color: $green;
+    margin-bottom: $small-spacing;
+  }
+
+  .event--text {
+
+  }
+
+}

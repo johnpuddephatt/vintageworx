@@ -1,0 +1,62 @@
+.section--page-plans {
+  margin-bottom: 2 * $base-spacing;
+  color: $primary;
+
+  .row {
+    margin-bottom: 2 * $base-spacing;
+    @media screen and (min-width: $medium-screen) {
+      display: flex;
+      flex-direction: row;
+      &:nth-child(2n) {
+        .plan--image {
+          order: -1;
+        }
+        .plan--text {
+          padding-right: 0;
+          padding-left: 2 * $base-spacing;
+        }
+      }
+    }
+  }
+
+  .plan--image {
+    width: 100%;
+    margin-top: $base-spacing;
+    @media screen and (min-width: $medium-screen) {
+      margin-top: 0;
+      width: 52.5%;
+      flex: 0 0 52.5%;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .plan--text {
+    padding: 0;
+    position: relative;
+    @media screen and (min-width: $medium-screen) {
+      margin-top: auto;
+      margin-bottom: auto;
+      z-index: 9;
+      width: 47.5%;
+      flex: 0 0 47.5%;
+      padding-right: 2 * $base-spacing;
+    }
+  }
+
+  .section-pretitle {
+    font-family: $heading-font-family;
+    margin-bottom: $small-spacing;
+  }
+
+  .section-subtitle {
+    font-size: modular-scale(4);
+  }
+
+  .case-study--quote {
+    font-family: $heading-font-family;
+    font-size: modular-scale(1);
+  }
+}

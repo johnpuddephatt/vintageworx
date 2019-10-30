@@ -1,0 +1,83 @@
+html {
+  // background-color: $viewport-background-color;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  perspective: 2px;
+}
+
+.inner {
+  // overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+
+}
+
+// .parallax {
+//   height: auto;
+//   position: relative;
+//   overflow: hidden;
+//   &::before {
+//     content: '';
+//     display: block;
+//     background-image: url(/assets/images/pattern.svg);
+//     background-size: 100% auto;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: -1;
+//     transform: translateZ(-1px) scale(1.5);
+//   }
+// }
+
+
+.parallax2 {
+  display: block;
+  background-image: url(/assets/images/pattern.svg);
+  background-size: 100% auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  left: 0;
+  z-index: -99;
+  transform-origin: bottom;
+  transform: translateZ(-1px) scale(1.5);
+}
+
+
+.container {
+  max-width: $medium-screen;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $base-spacing;
+  padding-right: $base-spacing;
+  &__wide {
+    max-width: 1.2 * $medium-screen
+  }
+}
+
+.status {
+  padding: 2 * $base-spacing;
+  font-size: modular-scale(3);
+  background-color: $light-blue;
+  margin: $base-spacing 0;
+}

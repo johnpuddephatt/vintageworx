@@ -1,0 +1,41 @@
+---
+layout: layouts/page.njk
+title: Activities
+header:
+  title: Our weekly activities timetable
+  description: |
+    Our regular weekly timetable offers a wide range of activities – things that will introduce you to a new hobby, let you gain new skills, or help you meet new people.
+
+    We also offer the following sessions by appointment: Community Group Support, Community & Social Enterprise Support, Community Event Management Training and Career Development & Training Support.
+  image: /assets/images/activity-header.jpg
+---
+<section class="section section--page-activities">
+  <div class="container">
+
+    {% set daysOfWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]%}
+    {% for day in daysOfWeek %}
+      {% set daysActivities = collections.activities | where("day", day) %}
+      {% if daysActivities.length %}
+        <h2 class="section-title">{{ day }}</h2>
+        {% for activity in daysActivities %}
+          <div class="activity-item">
+            <button class="activity-item--header">
+              <div class="activity-item--image">
+                <img src="{{ activity.data.image }}" alt="">
+              </div>
+              <div class="activity-item--text">
+                <div class="activity-item--title">{{ activity.data.title }}</div>
+                <div class="activity-item--time">{{ activity.data.time }}</div>
+              </div>
+              <div class="activity-item--arrow">&#9664;</div>
+            </button>
+            <div class="activity-item--content" hidden>
+              {{ activity.templateContent | markdownify | safe }}
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</section>
