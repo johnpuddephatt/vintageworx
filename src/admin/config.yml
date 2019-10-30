@@ -43,7 +43,7 @@ collections:
     files:
       - label: "Home Page"
         name: "index"
-        file: "/src/index.njk"
+        file: "/src/index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - { label: 'Headline', name: 'headline', widget: 'markdown'}
