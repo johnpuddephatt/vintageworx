@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
 
   // Collections
   eleventyConfig.addCollection('events', collection => {
-    return collection.getFilteredByGlob('./src/events/*.njk');
+    return collection.getFilteredByGlob('./src/events/*.md');
   });
 
   eleventyConfig.addCollection('activities', collection => {
