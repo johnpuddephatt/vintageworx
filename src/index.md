@@ -35,9 +35,6 @@ what_we_do:
     description: We’ve been running events at Falinge Park for years, bringing local people together to make use of one of the area’s greatest assets.
     image: /assets/images/events.jpg
 slideshow:
-  title: Our park project
-  description: We’ve developed plans for the restoration of Falinge Park that will renew its heritage features and create an invaluable resource for our community.
-  images:
   - /assets/images/Falinge1.jpg
   - /assets/images/Falinge2.jpg
   - /assets/images/Falinge3.jpg
