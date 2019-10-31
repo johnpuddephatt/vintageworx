@@ -40,12 +40,12 @@ collections:
       - { label: 'Description', name: 'body', widget: 'markdown'}
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Home Page"
         name: "index"
         file: "/src/index.md"
-        editor:
-          preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - { label: 'Headline', name: 'headline', widget: 'text'}
