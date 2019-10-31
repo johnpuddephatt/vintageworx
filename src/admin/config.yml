@@ -44,9 +44,11 @@ collections:
       - label: "Home Page"
         name: "index"
         file: "/src/index.md"
+        editor:
+          preview: false
         fields:
           - {label: Title, name: title, widget: string}
-          - { label: 'Headline', name: 'headline', widget: 'markdown'}
+          - { label: 'Headline', name: 'headline', widget: 'text'}
           - label: Introduction
             name: intro
             widget: object
