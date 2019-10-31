@@ -43,7 +43,7 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Home Page"
+      - label: "Home"
         name: "index"
         file: "/src/index.md"
         fields:
@@ -67,3 +67,69 @@ collections:
             name: "slideshow"
             widget: "list"
             field: {label: Image, name: image, widget: image}
+      - label: "Impact"
+        name: "impact"
+        file: "/src/impact.md"
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+          - label: Introduction
+            name: intro
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+      - label: "Park Project"
+        name: "project"
+        file: "/src/project.md"
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+              - {label: Image, name: image, widget: image}
+          - label: Introduction
+            name: intro
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+      - label: "Events"
+        name: "events"
+        file: "/src/events.md"
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+              - {label: Image, name: image, widget: image}
+      - label: "Activities"
+        name: "activities"
+        file: "/src/activities.md"
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+              - {label: Image, name: image, widget: image}
+      - label: "Contact"
+        name: "contact"
+        file: "/src/contact.md"
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Description', name: 'description', widget: 'text'}
+              - {label: Image, name: image, widget: image}

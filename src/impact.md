@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/impact.njk
 title: Impact
 header:
   title: A community approach to neighbourhood issues
@@ -15,20 +15,3 @@ intro:
 
     Through VintageWorx, local people have someone on their side, someone that empowers them to start making change. By working together with local people we’re tackling social isolation, giving people the skills and training they need, running events that bring the community together and working to restore the local park to create a community-owned and managed asset of which local people can be proud.
 ---
-<section class="section section--page-cases">
-  <div class="container">
-    {% for casestudy in collections.casestudies %}
-      <div class="row">
-        <div class="case-study--text">
-          <h3 class="section-subtitle">{{ casestudy.data.title }}</h3>
-          <div class="case-study--quote">
-            {{ casestudy.data.quote | markdownify | safe }}
-          </div>
-        </div>
-        <div class="case-study--image">
-          <img src="{{ casestudy.data.image }}">
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</section>

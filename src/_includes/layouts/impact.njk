@@ -1,0 +1,20 @@
+---
+layout: /layouts/page.njk
+---
+<section class="section section--page-cases">
+  <div class="container">
+    {% for casestudy in collections.casestudies %}
+      <div class="row">
+        <div class="case-study--text">
+          <h3 class="section-subtitle">{{ casestudy.data.title }}</h3>
+          <div class="case-study--quote">
+            {{ casestudy.data.quote | markdownify | safe }}
+          </div>
+        </div>
+        <div class="case-study--image">
+          <img src="{{ casestudy.data.image }}">
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

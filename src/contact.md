@@ -9,9 +9,9 @@ header:
     Use the form below to start talking to us, or email [enquiries@vintageworx.org.uk](mailto:enquiries@vintageworx.org.uk)
   image: /assets/images/contact-header.jpg
 ---
-    <section class="section section--page-events">
-      <div class="container">
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<section class="section section--page-events">
+<div class="container">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form method="POST" action="https://form.letsdance.agency/A4nlvMWO" class="contact-form">
   <h2 class="form-title">Contact us</h2>
   <input type="text" name="_honey" value="" style="display: none;">
@@ -76,6 +76,5 @@ header:
 
   }
 </script>
-
-  </div>
+</div>
 </section>
