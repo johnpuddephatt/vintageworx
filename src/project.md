@@ -1,4 +1,6 @@
 ---
+layout: layouts/project.njk
+title: The Park Project
 header:
   description: >
     Our plans for Falinge Park are being designed by the local community for the

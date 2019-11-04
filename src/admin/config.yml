@@ -47,6 +47,7 @@ collections:
         name: "index"
         file: "/src/index.md"
         fields:
+          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/home.njk'}
           - {label: Title, name: title, widget: string}
           - { label: 'Headline', name: 'headline', widget: 'text'}
           - label: Introduction
@@ -71,6 +72,8 @@ collections:
         name: "impact"
         file: "/src/impact.md"
         fields:
+          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/impact.njk'}
+          - {label: Title, name: title, widget: string}
           - label: Header
             name: header
             widget: object
@@ -87,6 +90,8 @@ collections:
         name: "project"
         file: "/src/project.md"
         fields:
+          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/home.njk'}
+          - {label: Title, name: title, widget: string}
           - label: Header
             name: header
             widget: object
@@ -104,6 +109,8 @@ collections:
         name: "events"
         file: "/src/events.md"
         fields:
+          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/events.njk'}
+          - {label: Title, name: title, widget: string}
           - label: Header
             name: header
             widget: object
@@ -115,6 +122,8 @@ collections:
         name: "activities"
         file: "/src/activities.md"
         fields:
+          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/activities.njk'}
+          - {label: Title, name: title, widget: string}
           - label: Header
             name: header
             widget: object
@@ -126,6 +135,8 @@ collections:
         name: "contact"
         file: "/src/contact.md"
         fields:
+          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/page.njk'}
+          - {label: Title, name: title, widget: string}
           - label: Header
             name: header
             widget: object
