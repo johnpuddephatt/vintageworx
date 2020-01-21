@@ -1,7 +1,11 @@
 ---
 title: Festival of Light
-date: 2019-11-29
+date: 28th Nov 2020
 time: 4pm - 9pm
 image: /assets/images/event-festival-of-light.jpg
 ---
-<strong>BRAND NEW FOR 2019!</strong> This year we are launching our First Winter Light Carnival around Falinge Park. A night time parade of light around the park, fun for all the family. If you would like to get involved please give us a call or email us directly.
+<strong>BACK FOR 2020!</strong> Last year's Festival of Light was so successful we will be hosting it again! 
+
+A night time parade of light around the park, fun for all the family! Make a lantern and join the parade!
+
+If you would like to get involved please give us a call or email us direct!
