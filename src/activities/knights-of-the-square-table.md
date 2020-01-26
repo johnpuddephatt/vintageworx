@@ -24,7 +24,7 @@ Call in any Tuesday morning 10am
 
 For further details please tel: 07760 354 698 or email vintageworxoffice@gmail.com
 
-You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
