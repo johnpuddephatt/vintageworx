@@ -2,7 +2,7 @@
 title: 'Knights of the Square Table '
 day: Tuesday
 time: 10am - 12noon
-image: /uploads/activity-art-classes.jpg
+image: /uploads/games.jpg
 ---
 BORED, FED-UP, LOOKING TO DO “SOMETHING”?
 
