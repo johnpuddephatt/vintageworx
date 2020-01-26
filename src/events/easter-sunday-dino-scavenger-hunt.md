@@ -11,3 +11,9 @@ Pit your wits against other families to solve the puzzles, riddles and clues and
 Fantastic Fun for the Family
 
 Blow away the cobwebs and work off that chocolate in your local park on Easter Sunday morning!
+
+You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+
+OnTwitter @falinge Hub
+
+On Instagram @vintageworxcdtrust
