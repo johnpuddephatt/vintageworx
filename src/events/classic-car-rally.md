@@ -10,7 +10,7 @@ Come down and see the fantastic cars on show!
 
 More details to come!
 
-You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
