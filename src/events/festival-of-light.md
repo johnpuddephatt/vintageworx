@@ -10,7 +10,7 @@ A night time parade of light around the park, fun for all the family! Make a lan
 
 If you would like to get involved please give us a call or email us direct!
 
-You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
