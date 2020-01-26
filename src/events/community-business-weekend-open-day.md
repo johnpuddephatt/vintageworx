@@ -1,6 +1,6 @@
 ---
 title: Community Business Weekend Open Day
-date: 26th Jan 2020
+date: 16th May 2020
 time: 10am - 3pm
 image: /uploads/Community-Word-Cloud.png
 ---
