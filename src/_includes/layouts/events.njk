@@ -12,7 +12,7 @@ layout: /layouts/page.njk
           <h3 class="event--title">{{ event.data.title }}</h3>
           <div class="event--date">{{ event.data.date | date('dddd Do MMMM') }} {{ event.data.time }}</div>
           <p class="event--description">
-            {{ event.templateContent | safe }}
+            {{ event.templateContent | markdownify }}
           </p>
         </div>
       </div>
