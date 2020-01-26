@@ -9,9 +9,3 @@ image: /assets/images/event-festival-of-light.jpg
 A night time parade of light around the park, fun for all the family! Make a lantern and join the parade!
 
 If you would like to get involved please give us a call or email us direct!
-
-You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
-
-OnTwitter @falinge Hub
-
-On Instagram @vintageworxcdtrust

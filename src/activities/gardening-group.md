@@ -19,11 +19,3 @@ Pop down and get involved!
 Tools, Gloves and Refreshments provided
 
 Weather permitting!!
-
-Updates
-
-You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
-
-On Twitter @falingehub
-
-On Instagram @vintageworxcdtrust

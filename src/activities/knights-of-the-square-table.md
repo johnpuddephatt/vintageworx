@@ -14,18 +14,8 @@ Dominoes, Darts, Billiards, Carrom Board, Mancala, Chess, Cribbage, Draughts, Ba
 
 DID WE MENTION THE FREE REFRESHMENTS?
 
-There are even opportunities to get involved in wood-working, gardening & DIY
-
-So if you fancy a changeor want to try something new
-
-Call in any Tuesday morning 10am
+There are even opportunities to get involved in wood-working, gardening & DIY, so if you fancy a change or want to try something new call in any Tuesday morning 10am
 
 (Go through the main gates of Falinge Park & follow driveway to terrace at the top where you will see the green entrance door)
 
 For further details please tel: 07760 354 698 or email vintageworxoffice@gmail.com
-
-You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
-
-On Twitter @falingehub
-
-On Instagram @vintageworxcdtrust

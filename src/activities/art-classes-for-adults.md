@@ -12,10 +12,4 @@ All abilities welcome Class includes Pencil Drawing, Pastels, watercolours, acry
 
 Every Monday  Please contact to book a place
 
-You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
-
-On Twitter @falingehub
-
-On Instagram @vintageworxcdtrust
-
 Learn techniques and hone skills. Funded by the PHT please contact for more details - very popular spaces fill up fast!

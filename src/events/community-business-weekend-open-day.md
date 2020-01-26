@@ -8,10 +8,4 @@ As part of our ongoing support of local community business and social enterprise
 
 Please pop down, Find out more about us and have a look at the wonderful work that is being done & show your support
 
-If you would like to set up a social or community enterprise please pop down and see us for support and advice
-
-You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
-
-OnTwitter @falinge Hub
-
-On Instagram @vintageworxcdtrust
+If you would like to set up a social or community enterprise please pop down and see us for support and advice.
