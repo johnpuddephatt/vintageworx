@@ -2,7 +2,7 @@
 title: Carer's crafting group
 day: Thursday
 time: 10am - 12noon
-image: /assets/images/activity-carers-crafting.jpg
+image: /uploads/activity-carers-crafting.jpg
 ---
 Peer support group for carers.
 

@@ -13,7 +13,7 @@ layout: /layouts/page.njk
           <div class="activity-item">
             <button class="activity-item--header">
               <div class="activity-item--image">
-                <img src="{{ activity.data.image }}" alt="">
+                        {% srcset activity.data.image, "", "", 150, 150, "150px" %}
               </div>
               <div class="activity-item--text">
                 <div class="activity-item--title">{{ activity.data.title }}</div>

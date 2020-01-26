@@ -6,7 +6,7 @@ layout: /layouts/page.njk
     {% for event in collections.events %}
       <div class="row event">
         <div class="event--image">
-          <img src="{{ event.data.image }}">
+          {% srcset event.data.image, "", "", 480, 360, "(min-width: 960px) 852px, 90vw" %}
         </div>
         <div class="event--text">
           <h3 class="event--title">{{ event.data.title }}</h3>

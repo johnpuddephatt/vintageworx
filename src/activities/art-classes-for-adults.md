@@ -2,7 +2,7 @@
 title: Art classes for adults
 day: Monday
 time: 4.30 - 6.30pm
-image: /assets/images/activity-art-classes.jpg
+image: /uploads/activity-art-classes.jpg
 ---
 Great opportunity for beginners, learn to work with pastels, watercolours and acrylics.
 

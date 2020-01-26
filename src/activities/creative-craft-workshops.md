@@ -2,7 +2,7 @@
 title: Creative craft workshops
 day: Monday
 time: 10am - 12noon
-image: /assets/images/activity-creative-craft-workshop.jpg
+image: /uploads/activity-creative-craft-workshop.jpg
 ---
 Learn tool usage, working with different materials, Art & Design. Funded by PHT.
 

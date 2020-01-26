@@ -2,7 +2,7 @@
 title: Sweet making class
 day: Wednesday
 time: 4.30 - 6.30pm
-image: /assets/images/activity-sweet-making.jpg
+image: /uploads/activity-sweet-making.jpg
 ---
 Would you like to know how to make your own vintage sweets? Perfect for gifts.
 

@@ -2,7 +2,7 @@
 title: Free-form crafts
 day: Monday
 time: 12 noon - 2pm
-image: /assets/images/activity-free-form-crafts.jpg
+image: /uploads/activity-free-form-crafts.jpg
 ---
 Fabulous opportunities to learn new crafts and new skills in a friendly and welcoming group of people. Drop in any time, the more the merrier!
 
