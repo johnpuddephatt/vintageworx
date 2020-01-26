@@ -8,7 +8,7 @@ Our fantastic International Culture event returns for the fourth year. This year
 
 We want to help showcase handmade items and products from around the area. Anything handmade, handgrown, home produced is welcome. Get in touch if you would like to be involved.
 
-You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
