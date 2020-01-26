@@ -20,10 +20,10 @@ Tools, Gloves and Refreshments provided
 
 Weather permitting!!
 
-Updates 
+Updates
 
 You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
-OnTwitter @falinge Hub
+On Twitter @falingehub
 
 On Instagram @vintageworxcdtrust

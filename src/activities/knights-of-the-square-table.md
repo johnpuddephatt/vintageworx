@@ -26,6 +26,6 @@ For further details please tel: 07760 354 698 or email vintageworxoffice@gmail.c
 
 You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
-OnTwitter @falinge Hub
+On Twitter @falingehub
 
 On Instagram @vintageworxcdtrust

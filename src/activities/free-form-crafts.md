@@ -12,6 +12,6 @@ No Prior Experience needed
 
 Rolling sessions available to help you build technique in a Friendly Informal Environment with small class sizes
 
-Please contact for moreinformation
+Please contact for more information
 
 or drop into the session

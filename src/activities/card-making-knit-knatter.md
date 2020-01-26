@@ -8,6 +8,6 @@ image: /assets/images/activity-knit.jpg
 
 You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
-OnTwitter @falinge Hub
+On Twitter @falingehub
 
 On Instagram @vintageworxcdtrust
