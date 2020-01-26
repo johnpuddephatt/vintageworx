@@ -18,8 +18,12 @@ Pop down and get involved!
 
 Tools, Gloves and Refreshments provided
 
-
-
 Weather permitting!!
 
-Updates on Facebook @falingeparktearooms
+Updates 
+
+You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+
+OnTwitter @falinge Hub
+
+On Instagram @vintageworxcdtrust
