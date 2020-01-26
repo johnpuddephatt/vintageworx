@@ -23,3 +23,9 @@ Call in any Tuesday morning 10am
 (Go through the main gates of Falinge Park & follow driveway to terrace at the top where you will see the green entrance door)
 
 For further details please tel: 07760 354 698 or email vintageworxoffice@gmail.com
+
+You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+
+OnTwitter @falinge Hub
+
+On Instagram @vintageworxcdtrust
