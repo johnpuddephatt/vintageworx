@@ -10,7 +10,7 @@ We need motivated, enthusiastic, proactive people with a good sense of humour an
 
 If you would like to find out more or sign up to get involved pop down to our Open Day
 
-You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
