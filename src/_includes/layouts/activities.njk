@@ -22,7 +22,7 @@ layout: /layouts/page.njk
               <div class="activity-item--arrow">&#9664;</div>
             </button>
             <div class="activity-item--content" hidden>
-              {{ activity.templateContent | markdownify | safe }}
+              {{ activity.templateContent | safe }}
             </div>
           </div>
         {% endfor %}
