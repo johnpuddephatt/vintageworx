@@ -20,7 +20,7 @@ Sign up Today!
 
 Please contact to book your place - very popular!
 
-You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
+You can also find us on Facebook @falingeparkrochdale and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
