@@ -10,7 +10,7 @@ Please pop down, Find out more about us and have a look at the wonderful work th
 
 If you would like to set up a social or community enterprise please pop down and see us for support and advice
 
-You can also find us on Facebook @falingeparktearooms
+You can also find us on Facebook @falingeparktearooms and @vintageworxCDTrust
 
 OnTwitter @falinge Hub
 
