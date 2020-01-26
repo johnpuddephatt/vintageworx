@@ -1,6 +1,6 @@
 ---
 title: Easter Sunday Dino Scavenger Hunt
-date: 12th Apr 2020
+date: 2020-04-12
 time: 10am - 12noon
 image: /uploads/IMG-20190421-WA0013.jpg
 ---

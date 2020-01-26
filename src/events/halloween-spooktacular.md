@@ -1,6 +1,6 @@
 ---
 title: Halloween CinemaTacular & Ghost Walk
-date: 31st Oct 2020
+date: 2020-10-31
 time: 4pm to 8.30pm
 image: /assets/images/event-halloween-spooktacular.jpg
 ---

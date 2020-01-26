@@ -1,6 +1,6 @@
 ---
 title: Paws in the Park
-date: 16th Aug 2020
+date: 2020-08-16
 time: 11am to 3pm
 image: /assets/images/event-paws-in-the-park.jpg
 ---
