@@ -1,11 +1,27 @@
 ---
 title: Sweet making class
-day: Saturday
-time: 1 – 3pm
+day: Wednesday
+time: 4.30 - 6.30pm
 image: /assets/images/activity-sweet-making.jpg
 ---
 Would you like to know how to make your own vintage sweets? Perfect for gifts.
 
-Learn how to make truffles, fudge, nougat and how to pull sugar in our own kitchen! Funded by PHT.
+No Prior Experience needed
+
+Build Confidence in a fun informal environment.
+
+Learn how to make Truffles, Fudge, Nougat, Toffee and the art of pulling sugar!
+
+Rolling sessions available
+
+Small Class Sizes
+
+Sign up Today!
 
 Please contact to book your place - very popular!
+
+You can also find us on Facebook @falingeparktearooms
+
+OnTwitter @falinge Hub
+
+On Instagram @vintageworxcdtrust
