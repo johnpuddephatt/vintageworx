@@ -1,8 +1,8 @@
 ---
 title: Volunteer Recruitment Open Day
-date: 2020-06-07
+date: 2020-06-07T00:00:00.000Z
 time: 9.30 - 2pm
-image: /uploads/volunteer.jpg
+image: /uploads/The Team weed the garden.JPG
 ---
 We have some amazing volunteer opportunities at Falinge Park this year.
 
