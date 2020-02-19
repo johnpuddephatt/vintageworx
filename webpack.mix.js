@@ -16,7 +16,7 @@ mix.js('src/_resources/js/main.js', 'src/assets/')
   .copy('src/_resources/fonts', 'src/assets/fonts')
   .copy('src/_resources/images', 'src/assets/images')
   .browserSync({
-    proxy: 'dist.vintageworx-eleventy.localhost',
+    proxy: 'dist.vintageworx.localhost',
     files: [
         "dist/**/*"
     ]

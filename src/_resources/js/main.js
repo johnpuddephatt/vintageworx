@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if(headerElement) {
     headerElement.style.height = headerElement.offsetHeight + 'px';
   }
-    navigationElement = document.querySelector('.primary-navigation');
+    navigationElement = document.querySelector('main .primary-navigation');
 
     if (headerElement && 'IntersectionObserver' in window) {
       createObserver();

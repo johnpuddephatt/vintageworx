@@ -3,7 +3,7 @@
   padding-bottom: $base-spacing;
   background-color: $light-blue;
   background-image: url(/assets/images/pattern2.svg);
-  background-size: 50%;
+  background-size: auto 100%;
   position: relative;
   text-align: center;
   @media screen and (min-width: $medium-screen) {
