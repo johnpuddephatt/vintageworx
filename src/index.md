@@ -50,7 +50,7 @@ what_we_do:
       Award for Voluntary Service!
 
       Our volunteers work tirelessly to try and help our community and we are honoured to be chosen to receive this prestigious award!
-    image: /uploads/announce.jpg
+    image: /uploads/qavs_logo.jpg
 slideshow:
   - /assets/images/Falinge1.jpg
   - /assets/images/Falinge2.jpg
