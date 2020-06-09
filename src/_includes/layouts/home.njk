@@ -57,7 +57,7 @@ layout: /layouts/base.njk
                 </h2>
                 {{ slide.description | markdownify | safe}}
               </div>
-              <img class="explore--image" src="{{ slide.image }}">
+             {% srcset slide.image, slide.title, "explore--image", 640, 380, "(orientation: portrait) 100vw, 50vw", null %}
             </div>
           </div>
         {% endfor %}
@@ -75,7 +75,6 @@ layout: /layouts/base.njk
         {% endfor %}
       </nav>
     </section>
-
 
     <section class="section--project">
       <div class="container">
