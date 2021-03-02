@@ -67,6 +67,9 @@
       &::before {
         content: open-quote;
       }
+      &::after {
+        content: close-quote;
+      }
     }
     p:last-child {
       &::after {

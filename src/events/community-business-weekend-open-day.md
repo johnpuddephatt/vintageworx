@@ -3,9 +3,9 @@ title: Community Business Weekend Open Day
 date: 2020-05-16T00:00:00.000Z
 time: 10am - 3pm
 image: /uploads/Community-Word-Cloud.png
+short_description: >
+  As part of our ongoing support of local community business and social enterprise Vintage Worx will be hosting an open day in the Tea rooms for the Community Business Weekend to showcase our work and the work of local community businesses in the area
 ---
-As part of our ongoing support of local community business and social enterprise Vintage Worx will be hosting an open day in the Tea rooms for the Community Business Weekend to showcase our work and the work of local community businesses in the area
-
 As part of the event we will be hosting our FIRST EVER Falinge Park Community Soup!!
 
 Community Soup is a crowd funding initiative that lets the community pick what they want to fund.
@@ -18,7 +18,7 @@ Eveyone is welcome!
 
 If you would like to put your community group forward for support please contact us now!!
 
-Entry Price for the Soup is £4 
+Entry Price for the Soup is £4
 
 Please pop down, Find out more about us and have a look at the wonderful work that is being done & show your support
 

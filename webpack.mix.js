@@ -16,7 +16,6 @@ mix.js('src/_resources/js/main.js', 'src/assets/')
   .sass('src/_resources/scss/main.scss', 'src/assets/')
   .copy('src/_resources/fonts', 'src/assets/fonts')
   .copy('src/_resources/images', 'src/assets/images')
-  .setPublicPath('dist')
   .browserSync({
     proxy: 'dist.vintageworx.localhost',
     files: [

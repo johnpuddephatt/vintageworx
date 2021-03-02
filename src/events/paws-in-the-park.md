@@ -3,13 +3,11 @@ title: Paws in the Park **Online Virtual Dog Show 2020**
 date: 2020-08-16
 time: 11am to 3pm
 image: /uploads/event-paws-in-the-park.jpg
----
-<!--StartFragment-->
+short_description: >
+  Fundraiser for Falinge Park & Bleakholt Animal Sanctuary.
 
-**Paws in the Park\
-Online Virtual Dog Show 2020\
-Fundraiser for Falinge Park & Bleakholt Animal Sanctuary**\
-Dog, Cat or other furry friend welcome to enter\
+  Dog, Cat or other furry friend welcome to enter
+---
 \
 Enter a Video (please film in landscape if possible)\
 Categories:\
@@ -53,5 +51,3 @@ The Pet must belong to you/your family – no lifted videos from the internet pl
 The closing date for entries is 31st July 2020.
 
 [See less](https://www.facebook.com/events/267230624524500/#)
-
-<!--EndFragment-->
