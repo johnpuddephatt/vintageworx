@@ -1,10 +1,12 @@
 ---
-title: Gardening group in the walled garden
+title: Green Volunteers
 day: Saturday
-time: 11am
+time: 10am
 image: /uploads/activity-gardening-group.jpg
 ---
-Come along and put your green fingers to work!
+Interested in getting involved in your community?
+
+We run weekly litterpicks in and around Falinge Park and provide growing spaces for you to flex your green fingers!! 
 
 An excellent way to stay fit and meet new people.
 
