@@ -12,12 +12,14 @@ layout: /layouts/base.njk
     <div class="container container__wide">
       <div class="page-header--text">
         <h2 class="section-title page-header--heading">{{ header.title}}</h2>
-        {{ header.description | markdownify | safe }}
+        {% if header.description %}
+          {{ header.description | markdownify | safe }}
+        {% endif %}
       </div>
     </div>
   </section>
 
-  {% if intro %}
+  {% if intro.title and intro.description %}
     <section class="section section--page-intro">
       <div class="container">
         <h2 class="section-title">{{ intro.title }}</h2>

@@ -1,0 +1,21 @@
+---
+layout: /layouts/base.njk
+---
+{% include "partials/navigation.njk" %}
+
+<div class="inner">
+  <div class="parallax2"></div>
+  <section class="section section--page-header">
+    <div class="page-header--image" style="background-image: url({{ header.image }})">
+    </div>
+
+    <div class="container container__wide">
+      <div class="page-header--text">
+        <h2 class="section-title page-header--heading">heading</h2>
+        description
+      </div>
+    </div>
+  </section>
+
+  {{ content | safe }}
+</div>
