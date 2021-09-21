@@ -2,44 +2,73 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: 'src/uploads'
-public_folder: '/uploads'
+media_folder: "src/uploads"
+public_folder: "/uploads"
 collections:
-  - name: 'activities'
-    label: 'Activities'
-    folder: 'src/activities/'
+  - name: "activities"
+    label: "Activities"
+    folder: "src/activities/"
     create: true
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Day', name: 'day', widget: 'select', options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] }
-      - { label: 'Time', name: 'time', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Description', name: 'body', widget: 'markdown'}
-  - name: 'casestudies'
-    label: 'Case Studies'
-    folder: 'src/casestudies/'
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Day",
+          name: "day",
+          widget: "select",
+          options:
+            [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+        }
+      - { label: "Time", name: "time", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Description", name: "body", widget: "markdown" }
+  - name: "casestudies"
+    label: "Case Studies"
+    folder: "src/casestudies/"
     create: true
     editor:
       preview: false
     fields:
-      - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Quote', name: 'quote', widget: 'text' }
-      - { label: 'Image', name: 'image', widget: 'image' }
-  - name: 'events'
-    label: 'Events'
-    folder: 'src/events/'
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Quote", name: "quote", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+  - name: "events"
+    label: "Events"
+    folder: "src/events/"
     create: true
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD'}
-      - { label: 'Time', name: 'time', widget: 'string'}
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Short description', name: 'short_description', widget: 'markdown', required: false}
-      - { label: 'Description', name: 'body', widget: 'markdown', required: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+        }
+      - { label: "Time", name: "time", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - {
+          label: "Short description",
+          name: "short_description",
+          widget: "markdown",
+          required: false,
+        }
+      - {
+          label: "Description",
+          name: "body",
+          widget: "markdown",
+          required: false,
+        }
   - label: "Pages"
     name: "pages"
     editor:
@@ -49,120 +78,155 @@ collections:
         name: "index"
         file: "/src/index.md"
         fields:
-          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/home.njk'}
-          - {label: Title, name: title, widget: string}
-          - { label: 'Headline', name: 'headline', widget: 'text'}
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/home.njk",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: "Headline", name: "headline", widget: "text" }
           - label: Introduction
             name: intro
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'text'}
-              - { label: 'Part one', name: 'part_one', widget: 'text'}
-              - { label: 'Part two', name: 'part_two', widget: 'text'}
+              - { label: "Title", name: "title", widget: "text" }
+              - { label: "Part one", name: "part_one", widget: "text" }
+              - { label: "Part two", name: "part_two", widget: "text" }
           - label: Slider
             name: what_we_do
             widget: list
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
-              - { label: 'Image', name: 'image', widget: 'image' }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
           - label: "Slideshow"
             name: "slideshow"
             widget: "list"
-            field: {label: Image, name: image, widget: image}
+            field: { label: Image, name: image, widget: image }
       - label: "Impact"
         name: "impact"
         file: "/src/impact.md"
         fields:
-          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/impact.njk'}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/impact.njk",
+            }
+          - { label: Title, name: title, widget: string }
           - label: Header
             name: header
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
           - label: Introduction
             name: intro
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
       - label: "Park Project"
         name: "project"
         file: "/src/project.md"
         fields:
-          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/home.njk'}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/home.njk",
+            }
+          - { label: Title, name: title, widget: string }
           - label: Header
             name: header
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
-              - {label: Image, name: image, widget: image}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: Image, name: image, widget: image }
           - label: Introduction
             name: intro
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
       - label: "Events"
         name: "events"
         file: "/src/events.md"
         fields:
-          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/events.njk'}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/events.njk",
+            }
+          - { label: Title, name: title, widget: string }
           - label: Header
             name: header
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
-              - {label: Image, name: image, widget: image}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: Image, name: image, widget: image }
       - label: "Activities"
         name: "activities"
         file: "/src/activities.md"
         fields:
-          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/activities.njk'}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/activities.njk",
+            }
+          - { label: Title, name: title, widget: string }
           - label: Header
             name: header
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
-              - {label: Image, name: image, widget: image}
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: Image, name: image, widget: image }
       - label: "Contact"
         name: "contact"
         file: "/src/contact.md"
         fields:
-          - {label: Layout, name: 'layout', widget: 'hidden', default: 'layouts/page.njk'}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: Layout,
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/page.njk",
+            }
+          - { label: Title, name: title, widget: string }
           - label: Header
             name: header
             widget: object
             fields:
-              - { label: 'Title', name: 'title', widget: 'string'}
-              - { label: 'Description', name: 'description', widget: 'text'}
-              - {label: Image, name: image, widget: image}
-  - name: 'pages'
-    label: 'Pages'
-    folder: 'src/pages'
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: Image, name: image, widget: image }
+  - name: "basic_pages"
+    label: "Basic pages"
+    folder: "src/pages"
     preview_path: pages/{{slug}}
     create: true
     editor:
       preview: true
     fields:
-      - { name: 'layout', widget: 'hidden', default: 'page' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'Introduction', name: 'intro', widget: 'text' }
-      - { label: 'Image', name: 'icon', widget: 'select', options: ['join','about','start','resources'] }
-      - { label: 'Body', name: 'body', widget: 'markdown'}
-  - name: 'posts'
-    label: 'Blog'
-    folder: 'src/posts'
+      - { name: "layout", widget: "hidden", default: "page" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Introduction", name: "intro", widget: "text" }
+      - {
+          label: "Image",
+          name: "icon",
+          widget: "select",
+          options: ["join", "about", "start", "resources"],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "posts"
+    label: "Blog"
+    folder: "src/posts"
     preview_path: posts/{{slug}}
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -170,7 +234,12 @@ collections:
     editor:
       preview: true
     fields:
-      - { name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Image', name: 'icon', widget: 'select', options: ['environment','house','houses','job'] }
-      - { label: 'Body', name: 'body', widget: 'markdown'}
+      - { name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Image",
+          name: "icon",
+          widget: "select",
+          options: ["environment", "house", "houses", "job"],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
