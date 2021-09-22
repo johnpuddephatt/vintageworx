@@ -26,7 +26,10 @@ main {
   // overflow: hidden;
   position: relative;
   transform-style: preserve-3d;
+}
 
+.align-center {
+  text-align: center;
 }
 
 // .parallax {
@@ -48,7 +51,6 @@ main {
 //   }
 // }
 
-
 .parallax2 {
   display: block;
   background-image: url(/assets/images/pattern.svg);
@@ -63,7 +65,6 @@ main {
   transform: translateZ(-1px) scale(1.5);
 }
 
-
 .container {
   max-width: $medium-screen;
   margin-left: auto;
@@ -71,7 +72,7 @@ main {
   padding-left: $base-spacing;
   padding-right: $base-spacing;
   &__wide {
-    max-width: 1.2 * $medium-screen
+    max-width: 1.2 * $medium-screen;
   }
 }
 

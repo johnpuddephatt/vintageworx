@@ -40,6 +40,26 @@ layout: /layouts/base.njk
         </div>
 
       </div>
+  
+      <div class="container">
+        <h2 class="section-title section-title__large">Our latest news &amp; updates</h2>
+        <div class="posts">
+            {% for post in collections.posts | reverse  -%}
+              <a href="{{ post.url }}" class="post__item">
+                <div class="post__item__text">
+                  <h3 class="post__item__title">{{ post.data.title }}</h3>
+                  <p>{{ post.templateContent | striptags | truncate(75) | safe }}</p>
+                  <span class="read-more">Read more</span>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+        <div class="align-center">
+          <a href="/blog/" class="button">See more news from us</a>
+        </div>
+
+
+      </div>
     </section>
 
 
