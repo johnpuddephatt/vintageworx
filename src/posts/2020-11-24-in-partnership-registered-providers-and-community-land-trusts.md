@@ -1,5 +1,6 @@
 ---
-title: "In Partnership Registered Providers and Community Land Trusts"
+title: In Partnership Registered Providers and Community Land Trusts
+date: 2021-09-22T16:42:21.192Z
 icon: houses
 ---
 **Join us for this online technical workshop on 16th December 10-11am. Aimed at housing professionals including Registered Provider and Local Authority staff. It will explore:**
