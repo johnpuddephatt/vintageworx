@@ -2,6 +2,7 @@ const path = require("path");
 const svgContents = require("eleventy-plugin-svg-contents");
 const pluginSrcsetImg = require("eleventy-plugin-srcset");
 var dateFilter = require("nunjucks-date-filter");
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   // Plugins
@@ -47,6 +48,10 @@ module.exports = function (eleventyConfig) {
     return array.filter((item) => {
       return item.data[key] === value ? item : false;
     });
+  });
+
+  eleventyConfig.addFilter("dateToFormat", function (date, format) {
+    return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
   });
 
   eleventyConfig.addFilter("whereNested", function (array, key, value) {

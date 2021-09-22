@@ -48,6 +48,7 @@ layout: /layouts/base.njk
               <a href="{{ post.url }}" class="post__item">
                 <div class="post__item__text">
                   <h3 class="post__item__title">{{ post.data.title }}</h3>
+                  <p class="post__item__date">{{ page.date.toDateString() }}</p>
                   <p>{{ post.templateContent | striptags | truncate(75) | safe }}</p>
                   <span class="read-more">Read more</span>
                 </div>
@@ -55,7 +56,7 @@ layout: /layouts/base.njk
             {% endfor %}
           </div>
         <div class="align-center">
-          <a href="/blog/" class="button">See more news from us</a>
+          <a href="/posts/" class="button">See more news from us</a>
         </div>
 
 

@@ -1,5 +1,6 @@
 {
-    "title": "VintageWorx",
-    "description": "working to transform our park and the lives of local people",
-    "lang": "en"
+  "title": "VintageWorx",
+  "description": "working to transform our park and the lives of local people",
+  "lang": "en",
+  "date_format": "%d.%m.%y"
 }
