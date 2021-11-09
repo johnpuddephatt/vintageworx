@@ -1,7 +1,11 @@
 ---
-title: Job club
-day: Saturday
-time: 11am
+title: Creative Sewing Sessions
+day: Tuesday
+time: 10am - 12.30
 image: /uploads/activity-job-club.jpg
 ---
-Support with job searching, CV building and online applications.
+Wonderful new group
+
+Friendly and informal
+
+Suitable for all abilities
