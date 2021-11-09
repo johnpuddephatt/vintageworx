@@ -1,6 +1,6 @@
 ---
 title: Volunteer Celebration Open Day
-date: 2020-06-07T00:00:00.000Z
+date: 2022-06-04
 time: 9.30 - 2pm
 image: /uploads/The Team weed the garden.JPG
 short_description: >
