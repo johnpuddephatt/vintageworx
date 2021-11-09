@@ -6,4 +6,6 @@ image: /uploads/activity-creative-craft-workshop.jpg
 ---
 Learn tool usage, working with different materials, Art & Design.
 
-Please contact for details to book your place.
+Pop in and join us anytime
+
+All abilities welcome
