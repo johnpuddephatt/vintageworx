@@ -1,6 +1,6 @@
 ---
 title: Upcycling workshop
-day: Thursday
+day: Friday
 time: 10am - 1pm
 image: /uploads/activity-upcycling.jpg
 ---
