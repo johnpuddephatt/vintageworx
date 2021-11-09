@@ -51,17 +51,6 @@ what_we_do:
 
       Our volunteers work tirelessly to try and help our community and we are honoured to be chosen to receive this prestigious award!
     image: /uploads/qavs_logo.jpg
-  - title: Covid 19 Health Crisis
-    description: >-
-      During the Covid Crisis we have, unfortunately had to close the cafe and
-      the public toilets to preserve people's safety in line with Government
-      guidance. However whilst in lockdown we will be reaching out to all our
-      members and customers to ensure they are supported during this time.
-
-      If you are feeling isolated or need some support please contact us and we will try and help where we can.
-
-      Be Safe - Stay home - Be Kind
-    image: /uploads/2014-07-01-20.12.37.jpg
 slideshow:
   - /assets/images/Falinge1.jpg
   - /assets/images/Falinge2.jpg
