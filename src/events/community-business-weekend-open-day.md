@@ -1,9 +1,14 @@
 ---
 title: Community Business Weekend Open Day
-date: 2020-05-16T00:00:00.000Z
+date: 2022-05-14
 time: 10am - 3pm
 image: /uploads/Community-Word-Cloud.png
-short_description: >
+short_description: >-
+  Official Date TBC
+
+
+
+
   As part of our ongoing support of local community business and social enterprise Vintage Worx will be hosting an open day in the Tea rooms for the Community Business Weekend to showcase our work and the work of local community businesses in the area
 ---
 As part of the event we will be hosting our FIRST EVER Falinge Park Community Soup!!
