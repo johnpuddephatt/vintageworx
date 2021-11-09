@@ -4,15 +4,44 @@ title: Activities
 header:
   title: Our weekly activities timetable
   description: >
-    Unfortunately due to Lockdown restrictions we are not able to offer our
-    usual timetable of activities.
+    Monday
 
-    However we have continued to offer support and online sessions via zoom for all our members.
+    10am - 12                 Knit & Natter
 
-    If you would like to join one of our zoom groups please get in touch!
+    10am - 12                 Upcycling
+
+    12.30 - 2.30pm         Creative Crafts
+
+    2.30pm - 4.30pm      Cook & Chat Sessions
 
 
-    We have also shared online sweetmaking tutorials which can be found on our page on facebook
+    Tuesday
+
+    10am - 12.30             Creative Sewing
+
+
+    Thursday
+
+    10am-12                    Creative Writing & Poetry
+
+    12 - 2pm                    Art Group
+
+    2pm - 4pm                Beginners Bridge Sessions
+
+
+    Friday
+
+    10am - 1pm               Upcycling Sessions
+
+    10am - 12                  Hot Chocolate Hub (Menopause Support)
+
+    12:30 - 3pm               Women in Business Networking
+
+
+    Saturday
+
+    10am - 12                  Green Volunteer Group - Litterpicking & Gardening
+
 
 
     You can also find us on [Facebook](https://www.facebook.com/falingeparkrochdale), on [Twitter](https://twitter.com/falingehub) or on [Instagram](http://instagram.com/vintageworxcdtrust).
