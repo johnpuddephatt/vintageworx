@@ -1,16 +1,14 @@
 ---
-title: Sweet making class
-day: Wednesday
-time: 4.30 - 6.30pm
+title: Cook and Chat Sessions
+day: Monday
+time: 2.30pm - 4.30pm
 image: /uploads/activity-sweet-making.jpg
 ---
-Would you like to know how to make your own vintage sweets? Perfect for gifts.
+Would you like to know how to make some basic meals? Cook from Scratch? Reduce Food waste and your food expenditure each month?
 
 No Prior Experience needed
 
 Build Confidence in a fun informal environment.
-
-Learn how to make Truffles, Fudge, Nougat, Toffee and the art of pulling sugar!
 
 Rolling sessions available
 
