@@ -12,7 +12,7 @@ layout: /layouts/page.njk
           </div>
         </div>
         <div class="case-study--image">
-          <img src="{{ casestudy.data.image }}">
+          {% srcset casestudy.data.image, "", "", 600, 400, "(min-width: 960px) 480px, 90vw" %}
         </div>
       </div>
     {% endfor %}

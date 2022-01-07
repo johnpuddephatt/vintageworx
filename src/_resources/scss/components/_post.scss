@@ -18,7 +18,9 @@
 }
 
 .post__item {
+  display: block;
   text-decoration: none;
+  margin-bottom: 2 * $base-spacing;
 
   &__title {
     margin-bottom: 0;
