@@ -1,35 +1,41 @@
 ---
-title: About community-led housing
-subtitle: A people-powered solution to the housing crisis
-intro: |
-  Community led housing offers a people-powered solution to the housing crisis, a way for people and communities to come together and solve their own unique housing challenges. It results in high quality, affordable homes, managed or owned by the community however they want.
-icon: about
+title: Green Volunteers Project
+subtitle: Funded through GMCVO & Greater Manchester Integrated Care Partnership
+intro: >
+  As a result of the wellbeing grant we received last year we have continued to
+  grow our green volunteers group on the park. We have regular weekly Litterpick
+  sessions and have some participants take over small beds on the park to
+  maintain. This year we want to create a gardening clubhouse and potting shed
+  for our green volunteers where they can learn practical skills around growing
+  and biodiversity. We want to have the volunteers work together to design and
+  begin to plant up a large scale herbaceous border planting area in the park.
+  This area will form the focus for community planting in the area and become a
+  learning point for new volunteers and participants to the project.
+icon: join
 eleventyNavigation:
   key: About community led housing
 ---
-## What are the benefits?
+## What is the project?
 
-Community led housing provides:
+We plan to host 30 sessions focusing specifically on this project.
 
-- Innovative projects based on open and meaningful community participation, delivered with the cooperation and consent of residents
-- The chance for a community group or organisation to own, manage or steward homes however they decide
-- Much-needed housing developments with tangible, legally-protected benefits for either the local community, a specific group of people, or both.
+We will begin each session with refreshments and a chance for participants to share thoughts on how they want the session to run for the day. 
 
-[Start your own scheme](/start-your-own-scheme/)
+Each session will involve a practical element, a learning element and a social element.
 
-## Bringing people and communities together across our region
-
-Kent has a large demand for new housing. This is driven by an exceptionally high level of second home ownership, our close proximity to London, our relatively small urban centres and significant areas of deprivation, especially within some coastal communities.
-
-Across urban and rural areas alike, people face a wide range of housing issues, such as a grave shortage of homes, general affordability, rising private rents and limited housing provision for younger and older people. Kent also has twice the national average of homes sitting empty, making local housing needs even more difficult to meet.
+We want our members to have the opportunity to build social relationships as well as practical skills and knowledge.
 
 
-## A real alternative to the private rental market
+## 5 points to Wellbeing
 
-For the thousands of people who can’t afford to buy their own home, many find themselves renting instead. But with steady increases in rents, taxes and utility bills, people are often forced to move more often than they like. What’s more, with the gap between rents and wages widening, people are resorting to housing benefits to meet the difference - only to discover landlords are increasingly unwilling to accept benefit claimants as tenants.
+***Be Active:*** The project will involve regular weekly sessions outdoors, working to regenerate a historic park area and improve the local environment. This will involve practical gardening including maintenance and planting activities.
 
-Together, this creates high levels of housing insecurity, which in turn has an enormous impact on people’s quality of life and their overall health and wellbeing. It also has a knock-on effect on access to childcare, local shops and services, informal support networks and getting help around the home. In other words, it diminishes any sense of community and the feeling of control people have over their own lives.
+***Notice:*** We will be encouraging members to be aware of how nature and the environment can have an affect on their wellbeing and recognise how beneficial engaging with people and the outside world can be. We will encourage mindful activities and ensure that members take the time to enjoy the activities.
 
-## Looking ahead to a brighter tomorrow
+***Connect:*** The project aims to bring people together with a mutual interest in gardening, biodiversity and restoration of gardens. We want to build new friend groups and allow socially isolated and de-motivated people to connect with each other through the shared goal of improving their local environment.
 
-As part of the Community Led Homes Enabler Hub Grants Programme, we’re in a unique position to help motivated groups start tackling all these issues head on. By encouraging projects for community led homes and empowering people to see them through, we’re doing everything we can to fight inequality and take our region to a place of greater inclusivity, stability and fairness.
+
+***Give:*** The purpose of the project is for the participants to volunteer their time to help improve the greenspace within the park and create a safe space for older and vulnerable members of the community to meet and share environmental activities. 
+
+
+***Learn:*** We will encourage our members to learn new skills in horticulture, biodiversity and planting. We will teach them about designing a herbaceous border that will flourish throughout the year and there will be opportunities for members to learn or rediscover skills in woodwork and DIY through the transformation of the clubhouse.
