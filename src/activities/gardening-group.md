@@ -1,6 +1,6 @@
 ---
 title: Green Volunteers
-day: Saturday
+day: Sunday
 time: 10am
 image: /uploads/activity-gardening-group.jpg
 ---
