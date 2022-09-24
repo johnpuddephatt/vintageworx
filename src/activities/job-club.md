@@ -1,11 +1,15 @@
 ---
 title: Creative Sewing Sessions
-day: Tuesday
-time: 10am - 12.30
+day: Friday
+time: 10am - 3pm
 image: /uploads/activity-job-club.jpg
 ---
 Wonderful new group
 
 Friendly and informal
 
-Suitable for all abilities
+1﻿0am - 12 Sewing Club for Adults
+
+1﻿pm-3pm Sewing Club for Children
+
+G﻿ive us a ring or drop in to ask any questions
