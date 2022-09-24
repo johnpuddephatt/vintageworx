@@ -1,7 +1,7 @@
 ---
 title: Cook and Chat Sessions
-day: Monday
-time: 2.30pm - 4.30pm
+day: Sunday
+time: 12 - 2pm
 image: /uploads/activity-sweet-making.jpg
 ---
 Would you like to know how to make some basic meals? Cook from Scratch? Reduce Food waste and your food expenditure each month?
