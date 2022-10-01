@@ -6,41 +6,37 @@ header:
   description: >
     Monday
 
-    10am - 12                 Knit & Natter
+    10am - 12                 Knit & Natter Over 55s
 
-    10am - 12                 Upcycling
-
-    12.30 - 2.30pm         Creative Crafts
-
-    2.30pm - 4.30pm      Cook & Chat Sessions
+    1.00pm - 3.00pm      Creative Crafts Over 55s
 
 
     Tuesday
 
-    10am - 12.30             Creative Sewing
+    10am - 2.00             Creative Crafts booking required
 
 
     Thursday
 
-    10am-12                    Creative Writing & Poetry
-
-    12 - 2pm                    Art Group
-
-    2pm - 4pm                Beginners Bridge Sessions
+    10am-12                   Creative Writing & Poetry
 
 
     Friday
 
-    10am - 1pm               Upcycling Sessions
+    10am - 1pm               Upcycling Sessions booking required
 
-    10am - 12                  Hot Chocolate Hub (Menopause Support)
+    10am - 12                  Sewing Club for adults
 
-    12:30 - 3pm               Women in Business Networking
+    1.00pm-3.00pm          Sewing Club for children
+
+    12:30 - 3pm               Women in Business Networking booking required
 
 
-    Saturday
+    Sunday
 
     10am - 12                  Green Volunteer Group - Litterpicking & Gardening
+
+    12 - 2pm                    Community Cook & Chat Please book in advance
 
 
 
