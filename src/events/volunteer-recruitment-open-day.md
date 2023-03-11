@@ -1,7 +1,7 @@
 ---
 title: Volunteer Celebration Open Day
-date: 2022-06-04
-time: 9.30 - 2pm
+date: 2023-06-04
+time: 10.30 - 2pm
 image: /uploads/The Team weed the garden.JPG
 short_description: >
   We have some amazing volunteer opportunities at Falinge Park this year.
