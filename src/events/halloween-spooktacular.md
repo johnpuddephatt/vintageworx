@@ -1,20 +1,18 @@
 ---
-title: Halloween Ghost Walk
-date: 2022-10-29
-time: 3pm to 8.30pm
+title: Halloween Monster Hunt & Ghost Walk
+date: 2023-10-28
+time: 4pm to 8.30pm
 image: /uploads/event-halloween-spooktacular.jpg
-short_description: Our Halloween Event is expanding this year to include even
-  more terrifying tales, ghoulish ghosties & dastardly demons! Follow us on
-  Facebook to find out more nearer the event.
+short_description: >-
+  Our Halloween Event is expanding this year to include even more terrifying
+  tales, ghoulish ghosties & dastardly demons! 
+
+
+  B﻿ring the little ones down for a Halloween Costume competition & Monster Hunt suitable for mini humans
+
+
+  S﻿ign up to our evening ghost walks for the brave and hardy amongst you!!
+
+
+  Fu﻿rther details published closer to the time
 ---
-Pumpkin Competition from 4pm
-
-Mask Making For the Kids
-
-Fancy Dress Parade for Children 4.30pm
-
-First Walk begins 5.45pm
-
-Last Walk 8.30pm
-
-Tickets: £3.00 each
