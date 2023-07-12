@@ -1,5 +1,5 @@
 ---
-title: Creative Writing & Poetry
+title: "Creative Hub: Creative Writing & Poetry"
 day: Thursday
 time: 10am - 12
 image: /uploads/activity-healthy-walk.jpg
