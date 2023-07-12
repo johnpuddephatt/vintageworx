@@ -1,5 +1,5 @@
 ---
-title: Creative craft workshops for over 50s
+title: "Creative Hub: Creative craft workshops for over 50s"
 day: Monday
 time: 1.00pm - 3.00pm
 image: /uploads/activity-creative-craft-workshop.jpg
