@@ -1,7 +1,7 @@
 ---
 title: Halloween Monster Hunt & Ghost Walk
 date: 2023-10-28
-time: 4pm to 8.30pm
+time: 4pm to 9pm
 image: /uploads/event-halloween-spooktacular.jpg
 short_description: >-
   Our Halloween Event is expanding this year to include even more terrifying
@@ -14,5 +14,14 @@ short_description: >-
   S﻿ign up to our evening ghost walks for the brave and hardy amongst you!!
 
 
-  Fu﻿rther details published closer to the time
+  Carnival Games
+
+
+  H﻿ot refreshments
+
+
+  L﻿antern making 
+
+
+  A﻿vailable throughout the evening
 ---
