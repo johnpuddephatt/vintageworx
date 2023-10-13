@@ -6,7 +6,6 @@ header:
   description: >
     Monday
 
-    10am - 12                 Knit & Natter Over 55s
 
     1.00pm - 3.00pm      Creative Crafts Over 55s
 
@@ -25,18 +24,20 @@ header:
 
     10am - 1pm               Upcycling Sessions booking required
 
-    10am - 12                  Sewing Club for adults
-
-    1.00pm-3.00pm          Sewing Club for children
+    10am - 12                 Stitch and Chat (Term Time Only)
 
     12:30 - 3pm               Women in Business Networking booking required
 
 
+    Saturday
+
+    10am - 12noon         Junior Park Rangers
+
+
     Sunday
 
-    10am - 12                  Green Volunteer Group - Litterpicking & Gardening
+    10.30am - 2pm                 Green Volunteer Group - Litterpicking & Gardening
 
-    12 - 2pm                    Community Cook & Chat Please book in advance
 
 
 
