@@ -1,5 +1,5 @@
 ---
-title: Green Volunteers
+title: Green Activity Day
 day: Sunday
 time: 10am
 image: /uploads/activity-gardening-group.jpg
@@ -7,6 +7,18 @@ image: /uploads/activity-gardening-group.jpg
 Interested in getting involved in your community?
 
 We run weekly litterpicks in and around Falinge Park and provide growing spaces for you to flex your green fingers!! 
+
+Ac﻿tivities include
+
+Community Litterpicking
+
+G﻿ardening
+
+T﻿he Potting Shed
+
+D﻿aisy Roots & Welly Boots Junk yard Garden Project
+
+
 
 An excellent way to stay fit and meet new people.
 
