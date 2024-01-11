@@ -1,6 +1,6 @@
 ---
 title: Great British Spring Clean
-date: 2023-03-26
+date: 2024-03-24
 time: 10.30 - 12.30
 image: /uploads/whatsapp-image-2021-06-27-at-11.14.56.jpeg
 short_description: >-
