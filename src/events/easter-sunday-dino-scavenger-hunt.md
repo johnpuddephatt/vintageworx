@@ -1,7 +1,7 @@
 ---
 title: Easter Dino Scavenger Hunt
-date: 2023-04-08
-time: 10.30am - 12noon
+date: 2024-03-30
+time: 11am-3pm
 image: /uploads/IMG-20190421-WA0013.jpg
 short_description: >-
   Every Year we run a treasure hunt in the park! Pit your wits against other
@@ -10,7 +10,7 @@ short_description: >-
   Fantastic Fun for the Family – 
 
 
-  J﻿oin us for our Dino Hunt
+  J﻿oin us for our Easter Hunt
 
 
   E﻿aster Bonnet Parade
